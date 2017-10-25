@@ -1,6 +1,6 @@
 > 由@luckflow创建于2017/10/19
 
-# 用pip原生安装
+## 用pip原生安装
     pip install xxxx.whl
 
 **1. 更改pip源**
@@ -40,7 +40,7 @@ conda config --set show_channel_urls yes
 
 后面安装tensorflow依赖包（或者你别装Python3.x，直接装对应版本发行版Anaconda3[要记得改更新源]），以及N卡GPU加速cuda和cudnn（这俩包一定要对应安装，同时看好tensorflow版本官网要求的对应的版本号）。
 
-## tensorflow-gpu安装
+### tensorflow-gpu安装
 
 到[Unofficial Windows Binaries for Python Extension Packages](http://www.lfd.uci.edu/~gohlke/pythonlibs/) 下载如下包（当然你也可以通过pip直接安装某些包，也可以在anaconda中建立新的虚拟环境，但为了知道发生什么最好还是下下来一个个安装），或到(pypi.org)下载下列包。
 
@@ -59,7 +59,7 @@ conda config --set show_channel_urls yes
 
 然后**依次**pip安装这些.whl包，到这里完成了Python科学研究的基本包了。如果你安装的是tensorflow的gpu版本，继续往下，否则完工！
 
-## cuda和cudnn安装
+### cuda和cudnn安装
 
 直接到英伟达开发者官网下载[tensorflow版本官方支持的cuda版本](https://developer.nvidia.com/cuda-downloads) 和[对应版本cuda的对应cudnn版本](https://developer.nvidia.com/cudnn) *这里一定要对应好版本支持 !* 或者下载我这里cuda8的百度云分享[链接：http://pan.baidu.com/s/1bo67GSJ 密码：77sv]
 
