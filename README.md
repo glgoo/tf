@@ -1,5 +1,3 @@
-> Windows下创建Tensorflow的GPU深度学习环境
-
 > 由rootoffice@163.com创建于2017/10/19
 
 # 用pip原生安装
