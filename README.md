@@ -1,4 +1,4 @@
-> 由rootoffice@163.com创建于2017/10/19
+> 由@luckflow创建于2017/10/19
 
 # 用pip原生安装
     pip install xxxx.whl
