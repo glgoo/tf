@@ -1,4 +1,4 @@
-> 在[HAUT](http://www.haut.edu.cn/ '河南工业大学')由[@luckflow](https://github.com/luckflow)创建于2017/10/19
+> 由[@luckflow](https://github.com/luckflow)创建于2017/10/19
 
 ## 用pip原生安装
     pip install xxxx.whl
@@ -66,3 +66,6 @@ conda config --set show_channel_urls yes
 下载后直接安装cuda，默认安装就可以（路径啥的自动会添加到Path，不放心可以用命令行nvcc --version试试）[到这里已经可以在机器上运用GPU加速了，你的C++开发，matlab仿真就可以用到这些toolkits了]
 
 下面就是深度神经网络加速Libraries了，它叫cuDNN(Deep Neural Network)专门用来深度学习模型训练加速的，直接解压这个压缩包把对应目录的文件拷贝到cuda安装路径对应文件夹下就行了，大功告成！
+
+### 交流
+邮箱：rootoffice@aliyun.com
