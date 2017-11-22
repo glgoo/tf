@@ -30,6 +30,9 @@ timeout = 6000
 ```sh
 # 安装anaconda后直接命令行输入
 conda config --add channels 'https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/'
+conda config --add channels 'https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge'
+conda config --add channels 'https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/'
+
 conda config --set show_channel_urls yes
 # 也可以通过其图形化界面管理更新源
 ```
