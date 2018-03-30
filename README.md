@@ -1,4 +1,4 @@
-> 由[@luckflow](https://github.com/luckflow)创建于2017/10/19
+> 创建于2017/10/19
 
 ## 用pip原生安装
     pip install xxxx.whl
