@@ -71,4 +71,4 @@ conda config --set show_channel_urls yes
 下面就是深度神经网络加速Libraries了，它叫cuDNN(Deep Neural Network)专门用来深度学习模型训练加速的，直接解压这个压缩包把对应目录的文件拷贝到cuda安装路径对应文件夹下就行了，大功告成！
 
 ### 交流
-邮箱：rootoffice@aliyun.com
+邮箱：rootoffice@163.com
